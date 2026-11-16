@@ -13,11 +13,11 @@ public class KillCilantro {
          currentLetter = "";
          currentLetter = word.substring(currentNum, currentNum + 1);
          if (currentLetter.equals("c")) {
-            if (currentNum + 7 > wordLength) {
+            if (currentNum + 8 > wordLength) {
                fullWord += currentLetter;
                
             } else {
-               testCilantro = word.substring(currentNum, currentNum + 7);
+               testCilantro = word.substring(currentNum, currentNum + 8);
                if (testCilantro.equals("cilantro")) {
                   currentNum += 7;
                   fullWord += "parsley";
